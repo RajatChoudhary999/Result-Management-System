@@ -1,0 +1,8 @@
+<div class="p-4 bg-success text-center text-light fs-4">
+    Result Management System
+    <%if(loggedIn==true){%>
+    <form action="/logout" method="post" class="float-end">
+        <button type="submit" class="btn btn-warning btn-md">Logout</button>
+    </form>
+    <%}%>
+</div>
